@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Triangles Learning App</title>
+</head>
+
+<body onload="draw();">
+    <h1>Solving Problems with Triangles</h1>
+    <div class="container">
+        <canvas id="grid" width="350" height="350"></canvas>
+        <form id="vertices">
+            <label for="vertexA">Enter Coords for Point A</label>
+            <input type="text">
+            <label for="vertexB">Enter Coords for Point B</label>
+            <input type="text">
+            <label for="vertexC">Enter Coords for Point C</label>
+            <input type="text">
+        </form>
+        <form id="angles">
+            <label for="angleX">Enter Angle for X</label>
+            <input type="text" id="angleX">
+            <label for="angleY">Enter Angle for Y</label>
+            <input type="text" id="angleY">
+            <label for="angleZ">Enter Angle for Z</label>
+            <input type="text" id="angleZ">
+        </form>
+        <button id="changeCoords">Change Coordinates</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
