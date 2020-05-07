@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#023b0c,#6ca676);
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box {
+    width: 250px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    float: left;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-btn {
+    height: 30px;
+    border-radius: 0 5px 5px 0;
+}
+
+.teams {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.teams img {
+    width:200px;
+    margin-right: 100px;
+}
